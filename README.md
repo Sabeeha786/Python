@@ -1,12 +1,6 @@
 # Python
 DEBUGGED CODE
-# A recursive Python program  
-# to check whether a given  
-# number is palindrome or not 
-  
-# A recursive function that  
-# check a str[s..e] is  
-# palindrome or not. 
+
 def isPalRec(st, s, e) : 
       
     # If there is only one character 
@@ -38,7 +32,7 @@ def isPalindrome(st) :
     return isPalRec(st, 0, n - 1); 
   
   
-# Driver Code 
+
 st = "geeg"
 if (isPalindrome(st)) : 
     print "Yes"
